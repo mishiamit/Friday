@@ -115,7 +115,7 @@ smd({
         
   let too = `*Separate the text with _:_ sign!*\n*Example : ${prefix + smd} Suhail _:_ Bot*`
   if(!mm) {
-    let str = `┌───〈 *ᴇᴅɪᴛᴏʀ ᴍᴇɴᴜ*  〉───◆
+    let str = `┌───〈 *Friday*  〉───◆
 │╭─────────────···▸
 ┴│▸
 ⬡│▸ ${gfxx.join(" \n⬡│▸ ")}
