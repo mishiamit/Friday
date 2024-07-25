@@ -11,10 +11,10 @@ global.email ="amitmishra301106gmail.com"
 global.location="Uttar Pradesh, India."
 
 
-global.mongodb= process.env.MONGODB_URI || ""
-global.allowJids= process.env.ALLOW_JID || "null" 
-global.blockJids= process.env.BLOCK_JID || "null"
-global.DATABASE_URL = process.env.DATABASE_URL || ""
+global.mongodb= process.env.MONGODB_URI || "mongodb+srv://friday:#Sam@98167@friday.bhjapuo.mongodb.net/?retryWrites=true&w=majority&appName=Friday"
+global.allowJids= process.env.ALLOW_JID || "true" 
+global.blockJids= process.env.BLOCK_JID || "true"
+global.DATABASE_URL = process.env.DATABASE_URL || "mongodb+srv://friday:#Sam@98167@friday.bhjapuo.mongodb.net/?retryWrites=true&w=majority&appName=Friday"
 
 global.timezone= process.env.TZ || process.env.TIME_ZONE || "Asia/Kolkata";
 global.github=process.env.GITHUB|| "https://github.com/SuhailTechInfo/mishiamit";
@@ -74,8 +74,8 @@ module.exports = {
   VERSION : process.env.VERSION || "1.3.8",
   caption : global.caption || "" , // ```Friday```", //*Friday*\n https://youtube.com/@techbizz1718?si=bo3qjpzUFPv01SVa"),
  
-  author : process.env.PACK_AUTHER|| "",
-  packname: process.env.PACK_NAME || "",
+  author : process.env.PACK_AUTHER|| "Friday",
+  packname: process.env.PACK_NAME || "Friday",
   botname : process.env.BOT_NAME  || "Friday",
   ownername:process.env.OWNER_NAME|| "Amit",
 
@@ -84,8 +84,8 @@ module.exports = {
   KOYEB_API : process.env.KOYEB_API  || "false",
 
   REMOVE_BG_KEY : process.env.REMOVE_BG_KEY  || "",
-  OPENAI_API_KEY: process.env.OPENAI_API_KEY || "sk-None-XHgdqFmwh0SrfVOPo3xnT3BlbkFJlTYuiS3FyZPdfmBWNz8Y",
-  HEROKU_API_KEY: process.env.HEROKU_API_KEY || "",
+  OPENAI_API_KEY: process.env.OPENAI_API_KEY || "sk-proj-XrQ3W6vF6Uec5dxArvJTT3BlbkFJtzlZuQ6JXQd3j8LhNdSO",
+  HEROKU_API_KEY: process.env.HEROKU_API_KEY || "HRKU-167f35af-f19f-4ace-8d00-6d90b0ee31e0",
   HEROKU_APP_NAME:process.env.HEROKU_APP_NAME|| "",
   antilink_values:process.env.ANTILINK_VALUES|| "all",
   HEROKU: process.env.HEROKU_APP_NAME && process.env.HEROKU_API_KEY,
