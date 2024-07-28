@@ -114,9 +114,9 @@ let singleText = async(message, match, {cmdName}) => {
 
         }
 
-        if (!match) return message.reply(`*_Example : ${prefix+cmdName} Amit_*`);
+        if (!match) return message.reply(`*_Example : ${prefix+cmdName} Suhail_*`);
 
-        return await textToLogoGenerator(message, logo[cmdName] , match ,"Amit" , "1")
+        return await textToLogoGenerator(message, logo[cmdName] , match ,"Suhail" , "1")
 
      }catch(e){return await message.error(`${e}\n\ncmdName: ${cmdName}`,e);} 
 
